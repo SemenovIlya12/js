@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(124, 110, 110);
+}
+
+
+#score, #score-pc {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 237, 188);
+}
+
+#player-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#player-cards img {
+  height: 150px;
+  margin: 0 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
